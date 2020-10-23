@@ -1,12 +1,12 @@
-name: lucky_jumpstart
+name: internationalization
 version: 0.1.0
 
 authors:
   - your-name-here <your-email-here>
 
 targets:
-  lucky_jumpstart:
-    main: src/lucky_jumpstart.cr
+  internationalization:
+    main: src/internationalization.cr
 
 crystal: 0.35.0
 

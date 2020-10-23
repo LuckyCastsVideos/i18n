@@ -1,12 +1,12 @@
-# ☘️ Lucky Jumpstart
+# ☘️ internationalization
 
 This is a template project for web applications using [Lucky](https://luckyframework.org).
 
-![Crystal CI](https://github.com/stephendolan/lucky_jumpstart/workflows/Crystal%20CI/badge.svg)
+![Crystal CI](https://github.com/stephendolan/internationalization/workflows/Crystal%20CI/badge.svg)
 
 ### How to use it?
 
-- Click [this link](https://github.com/stephendolan/lucky_jumpstart/generate)
+- Click [this link](https://github.com/stephendolan/internationalization/generate)
 - Run `./script/rename_template_app your_app` to rename the template application
 - Run `./script/setup`
 - Run `lucky dev`
