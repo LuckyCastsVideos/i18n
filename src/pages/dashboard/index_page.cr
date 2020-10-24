@@ -11,3 +11,19 @@ class Dashboard::IndexPage < MainLayout
     end
   end
 end
+
+class TranslationFileExample
+  # translations.yml
+  #
+  # en:
+  #   dashboard:
+  #     greeting: Hello!
+  #
+  # es:
+  #   dashboard:
+  #     greeting: Hola!
+  #
+  # fr:
+  #   dashboard:
+  #     greeting: Bonjour!
+end
