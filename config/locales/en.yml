@@ -1,0 +1,16 @@
+# t("simple_example.hello")
+# => "Hello"
+simple_example:
+  hello: "Hello"
+
+# t("interpolation_example.hello", { username: "LuckyCasts" })
+# => "Hello, LuckyCasts"
+interpolation_example:
+  hello: "Hello, %{username}"
+
+# t("count_example.apple", count: 2)
+# => "2 apples"
+count_example:
+  apple:
+    one: "%{count} apple"
+    other: "%{count} apples"

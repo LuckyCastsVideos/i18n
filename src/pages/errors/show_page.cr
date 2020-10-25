@@ -1,5 +1,7 @@
 class Errors::ShowPage
   include Lucky::HTMLPage
+  include Translator
+  quick_def user_language, LANGUAGE_DEFAULT
 
   needs message : String
   needs status : Int32

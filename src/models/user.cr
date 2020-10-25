@@ -5,6 +5,7 @@ class User < BaseModel
   include Users::EmailConfirmable
 
   table do
+    column language : String
     column email : String
     column encrypted_password : String
   end

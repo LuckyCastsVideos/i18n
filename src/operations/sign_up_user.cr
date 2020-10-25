@@ -3,11 +3,13 @@ class SignUpUser < User::SaveOperation
   # Change password validations in src/operations/mixins/password_validations.cr
   include PasswordValidations
 
-  permit_columns email
+  permit_columns language, email
   attribute password : String
   attribute password_confirmation : String
 
   before_save do
+    language.value ||= Translator::LANGUAGE_DEFAULT
+    validate_inclusion_of language, in: Translator::LANGUAGES_AVAILABLE
     validate_uniqueness_of email
     assign_confirmation_token
     Authentic.copy_and_encrypt password, to: encrypted_password

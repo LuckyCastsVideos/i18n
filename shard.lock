@@ -52,6 +52,10 @@ shards:
     git: https://github.com/luckyframework/habitat.git
     version: 0.4.4
 
+  i18n:
+    git: https://github.com/TechMagister/i18n.cr.git
+    version: 0.3.1
+
   jwt:
     git: https://github.com/crystal-community/jwt.git
     version: 1.4.2

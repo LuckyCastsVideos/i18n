@@ -1,5 +1,7 @@
 abstract class AuthLayout
   include Lucky::HTMLPage
+  include Translator
+  quick_def user_language, LANGUAGE_DEFAULT
 
   abstract def content
   abstract def page_title
