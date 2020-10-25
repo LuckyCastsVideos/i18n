@@ -13,17 +13,15 @@ class Dashboard::IndexPage < MainLayout
 end
 
 class TranslationFileExample
-  # translations.yml
-  #
-  # en:
+  # config/locales/en.yml
   #   dashboard:
   #     greeting: Hello!
   #
-  # es:
+  # config/locales/es.yml
   #   dashboard:
   #     greeting: Hola!
   #
-  # fr:
+  # config/locales/fr.yml
   #   dashboard:
   #     greeting: Bonjour!
 end
